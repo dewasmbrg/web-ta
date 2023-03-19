@@ -7,7 +7,7 @@ const Navbar = () => {
             <img
                 src={logo}
                 alt="logo"
-                className="w-[50px] h-[50px] bg-white absolute"
+                className="w-[50px] h-[50px] bg-white absolute rounded-md"
             />
 
             <ul className="w-full flex justify-center gap-10 py-[25px] text-white font-[400] text-lg">

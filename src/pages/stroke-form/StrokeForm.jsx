@@ -1,6 +1,7 @@
+import React from "react";
 import Navbar from "../../components/header/Navbar";
 
-const Help = () => {
+export default function StrokeForm() {
     return (
         <div className="w-full h-screen">
             <div className="max-w-[1000px] mx-auto h-full">
@@ -8,6 +9,4 @@ const Help = () => {
             </div>
         </div>
     );
-};
-
-export default Help;
+}

@@ -1,38 +1,38 @@
-import { NavLink } from 'react-router-dom';
-import logo from '../../assets/logo.png';
+import { NavLink } from "react-router-dom";
+import logo from "../../assets/logo.png";
 
 const Navbar = () => {
     return (
-        <nav className='border-b-2 border-gray-700 flex  items-center'>
+        <nav className="border-b-2 border-gray-700 flex  items-center">
             <img
                 src={logo}
-                alt='logo'
-                className='w-[50px] h-[50px] bg-white rounded-full absolute'
+                alt="logo"
+                className="w-[50px] h-[50px] bg-white absolute"
             />
 
-            <ul className='w-full flex justify-center gap-10 py-[25px] text-white font-[400] text-lg'>
+            <ul className="w-full flex justify-center gap-10 py-[25px] text-white font-[400] text-lg">
                 <li>
                     <NavLink
-                        to={'/'}
+                        to={"/"}
                         end
-                        className='hover:duration-300 hover:text-[#fcd34d] line-through'>
+                        className="hover:duration-300 hover:text-[#537FE7]">
                         Home
                     </NavLink>
                 </li>
                 <li>
                     <NavLink
-                        to={'/pokemon'}
+                        to={"/help"}
                         end
-                        className='hover:duration-300 hover:text-[#fcd34d] line-through'>
-                        Pokemon
+                        className="hover:duration-300 hover:text-[#537FE7]">
+                        Help
                     </NavLink>
                 </li>
                 <li>
                     <NavLink
-                        to={'/help'}
+                        to={"/contact-us"}
                         end
-                        className='hover:duration-300 hover:text-[#fcd34d] line-through'>
-                        Help
+                        className="hover:duration-300 hover:text-[#537FE7]">
+                        Contact Us
                     </NavLink>
                 </li>
             </ul>

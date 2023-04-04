@@ -11,10 +11,7 @@ const Home = () => {
         <div className="w-full h-screen">
             <div className="max-w-[1000px] mx-auto h-full">
                 <Navbar />
-                <div className="flex flex-col justify-center gap-5 text-white py-[50px]">
-                    <h1 className="text-2xl font-bold text-blue-500">
-                        Stroke Prediction
-                    </h1>
+                <div className="flex flex-col justify-center gap-5 text-white py-[40px]">
                     <p className="font-semibold text-gray-300">
                         <span className="text-xl text-white">
                             Welcome and please check your stroke disease to get
@@ -29,28 +26,28 @@ const Home = () => {
                     </p>
 
                     <div className="flex justify-between items-center gap-5">
-                        <div className="h-[300px] w-[300px] bg-gray-800 shadow-md shadow-gray-700 rounded-md p-5 flex flex-col justify-center hover:duration-300 hover:shadow-2xl hover:shadow-blue-500 hover:scale-105">
+                        <div className="h-[250px] w-[300px] bg-gray-800 shadow-md shadow-gray-700 rounded-md p-5 flex flex-col justify-center hover:duration-300 hover:shadow-2xl hover:shadow-blue-500 hover:scale-105">
                             <img
                                 src={stroke1}
                                 alt="stroke_1"
                                 className="object-cover object-center self-center w-full h-full rounded-md"
                             />
                         </div>
-                        <div className="h-[300px] w-[300px] bg-gray-800 shadow-md shadow-gray-700 rounded-md p-5 flex flex-col justify-center hover:duration-300 hover:shadow-2xl hover:shadow-blue-500 hover:scale-105">
+                        <div className="h-[250px] w-[300px] bg-gray-800 shadow-md shadow-gray-700 rounded-md p-5 flex flex-col justify-center hover:duration-300 hover:shadow-2xl hover:shadow-blue-500 hover:scale-105">
                             <img
                                 src={stroke2}
                                 alt="stroke_2"
                                 className="object-cover object-center self-center w-full h-full rounded-md"
                             />
                         </div>
-                        <div className="h-[300px] w-[300px] bg-gray-800 shadow-md shadow-gray-700 rounded-md p-5 flex flex-col justify-center hover:duration-300 hover:shadow-2xl hover:shadow-blue-500 hover:scale-105">
+                        <div className="h-[250px] w-[300px] bg-gray-800 shadow-md shadow-gray-700 rounded-md p-5 flex flex-col justify-center hover:duration-300 hover:shadow-2xl hover:shadow-blue-500 hover:scale-105">
                             <img
                                 src={stroke3}
                                 alt="stroke_3"
                                 className="object-cover object-center self-center w-full h-full rounded-md"
                             />
                         </div>
-                        <div className="h-[300px] w-[300px] bg-gray-800 shadow-md shadow-gray-700 rounded-md p-5 flex flex-col justify-center hover:duration-300 hover:shadow-2xl hover:shadow-blue-500 hover:scale-105">
+                        <div className="h-[250px] w-[300px] bg-gray-800 shadow-md shadow-gray-700 rounded-md p-5 flex flex-col justify-center hover:duration-300 hover:shadow-2xl hover:shadow-blue-500 hover:scale-105">
                             <img
                                 src={stroke4}
                                 alt="stroke_4"
@@ -59,7 +56,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="flex flex-col gap-5 justify-center items-center mt-[5%]">
+                    <div className="flex flex-col gap-2 justify-center items-center mt-3">
                         <Link
                             to={"/stroke-form"}
                             class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-base px-10 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">

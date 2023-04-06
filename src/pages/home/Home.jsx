@@ -26,10 +26,10 @@ const Home = () => {
                     </p>
 
                     <div className="flex justify-between items-center gap-5 py-5">
-                        <div class="max-w-7xl mx-auto">
-                            <div class="relative group">
-                                <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-                                <div class="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
+                        <div className="max-w-7xl mx-auto">
+                            <div className="relative group">
+                                <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                                <div className="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
                                     <img
                                         src={stroke1}
                                         alt="stroke_1"
@@ -39,10 +39,10 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <div class="max-w-7xl mx-auto">
-                            <div class="relative group">
-                                <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-                                <div class="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
+                        <div className="max-w-7xl mx-auto">
+                            <div className="relative group">
+                                <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                                <div className="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
                                     <img
                                         src={stroke2}
                                         alt="stroke_2"
@@ -52,10 +52,10 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <div class="max-w-7xl mx-auto">
-                            <div class="relative group">
-                                <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-                                <div class="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
+                        <div className="max-w-7xl mx-auto">
+                            <div className="relative group">
+                                <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                                <div className="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
                                     <img
                                         src={stroke3}
                                         alt="stroke_3"
@@ -65,10 +65,10 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <div class="max-w-7xl mx-auto">
-                            <div class="relative group">
-                                <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-                                <div class="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
+                        <div className="max-w-7xl mx-auto">
+                            <div className="relative group">
+                                <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                                <div className="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
                                     <img
                                         src={stroke4}
                                         alt="stroke_4"
@@ -82,7 +82,7 @@ const Home = () => {
                     <div className="flex flex-col gap-2 justify-center items-center mt-3">
                         <Link
                             to={"/stroke-form"}
-                            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-base px-10 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-base px-10 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
                             Check
                         </Link>
                         <div className="flex gap-5 justify-center items-center">

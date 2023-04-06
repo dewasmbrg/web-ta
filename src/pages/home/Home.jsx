@@ -25,34 +25,57 @@ const Home = () => {
                         </span>
                     </p>
 
-                    <div className="flex justify-between items-center gap-5">
-                        <div className="h-[250px] w-[300px] bg-gray-800 shadow-md shadow-gray-700 rounded-md p-5 flex flex-col justify-center hover:duration-300 hover:shadow-2xl hover:shadow-blue-500 hover:scale-105">
-                            <img
-                                src={stroke1}
-                                alt="stroke_1"
-                                className="object-cover object-center self-center w-full h-full rounded-md"
-                            />
+                    <div className="flex justify-between items-center gap-5 py-5">
+                        <div class="max-w-7xl mx-auto">
+                            <div class="relative group">
+                                <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                                <div class="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
+                                    <img
+                                        src={stroke1}
+                                        alt="stroke_1"
+                                        className="object-cover object-center self-center w-full h-full rounded-md"
+                                    />
+                                </div>
+                            </div>
                         </div>
-                        <div className="h-[250px] w-[300px] bg-gray-800 shadow-md shadow-gray-700 rounded-md p-5 flex flex-col justify-center hover:duration-300 hover:shadow-2xl hover:shadow-blue-500 hover:scale-105">
-                            <img
-                                src={stroke2}
-                                alt="stroke_2"
-                                className="object-cover object-center self-center w-full h-full rounded-md"
-                            />
+
+                        <div class="max-w-7xl mx-auto">
+                            <div class="relative group">
+                                <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                                <div class="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
+                                    <img
+                                        src={stroke2}
+                                        alt="stroke_2"
+                                        className="object-cover object-center self-center w-full h-full rounded-md"
+                                    />
+                                </div>
+                            </div>
                         </div>
-                        <div className="h-[250px] w-[300px] bg-gray-800 shadow-md shadow-gray-700 rounded-md p-5 flex flex-col justify-center hover:duration-300 hover:shadow-2xl hover:shadow-blue-500 hover:scale-105">
-                            <img
-                                src={stroke3}
-                                alt="stroke_3"
-                                className="object-cover object-center self-center w-full h-full rounded-md"
-                            />
+
+                        <div class="max-w-7xl mx-auto">
+                            <div class="relative group">
+                                <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                                <div class="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
+                                    <img
+                                        src={stroke3}
+                                        alt="stroke_3"
+                                        className="object-cover object-center self-center w-full h-full rounded-md"
+                                    />
+                                </div>
+                            </div>
                         </div>
-                        <div className="h-[250px] w-[300px] bg-gray-800 shadow-md shadow-gray-700 rounded-md p-5 flex flex-col justify-center hover:duration-300 hover:shadow-2xl hover:shadow-blue-500 hover:scale-105">
-                            <img
-                                src={stroke4}
-                                alt="stroke_4"
-                                className="object-cover object-center self-center w-full h-full rounded-md"
-                            />
+
+                        <div class="max-w-7xl mx-auto">
+                            <div class="relative group">
+                                <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                                <div class="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
+                                    <img
+                                        src={stroke4}
+                                        alt="stroke_4"
+                                        className="object-cover object-center self-center w-full h-full rounded-md"
+                                    />
+                                </div>
+                            </div>
                         </div>
                     </div>
 
